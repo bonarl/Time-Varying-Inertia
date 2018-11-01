@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     38290,       1077]
-NotebookOptionsPosition[     37101,       1048]
-NotebookOutlinePosition[     37449,       1063]
-CellTagsIndexPosition[     37406,       1060]
+NotebookDataLength[     22932,        654]
+NotebookOptionsPosition[     21654,        624]
+NotebookOutlinePosition[     22002,        639]
+CellTagsIndexPosition[     21959,        636]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -77,9 +77,10 @@ Cell[BoxData[
       RowBox[{"Cos", "[", 
        RowBox[{"\[Theta]", "+", "\[Psi]"}], "]"}]}]}], ")"}], 
    RowBox[{"3", "/", "2"}]]]], "Output",
- CellChangeTimes->{{3.749970141799771*^9, 3.7499701772505503`*^9}, 
-   3.749973085393097*^9},ExpressionUUID->"9fbe06b2-0612-44c6-8eaa-\
-a1354f0758d2"]
+ CellChangeTimes->{
+  3.749974096674125*^9, {3.7499744620450425`*^9, 
+   3.749974484787647*^9}},ExpressionUUID->"8ba47fc4-f39c-4167-a669-\
+2d1b66821583"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -149,9 +150,8 @@ Cell[BoxData[
       RowBox[{"Cos", "[", 
        RowBox[{"\[Theta]", "+", "\[Psi]"}], "]"}]}]}], ")"}]}]]], "Output",
  CellChangeTimes->{
-  3.7499702181260457`*^9, {3.749973045581931*^9, 
-   3.7499730983427925`*^9}},ExpressionUUID->"1994ab98-6008-41aa-8557-\
-06b689e2d3cd"]
+  3.749974490576606*^9},ExpressionUUID->"6740534e-c096-4892-a83b-\
+9153df39ebd1"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -597,454 +597,30 @@ Cell[BoxData[
              RowBox[{"(", 
               RowBox[{"\[Theta]", "+", "\[Psi]"}], ")"}]}], "]"}]}]}], 
          ")"}]}], "]"}]}]}], ")"}]}]}]], "Output",
- CellChangeTimes->{3.7499702310313635`*^9, 3.7499703842852774`*^9, 
-  3.7499715149439297`*^9, 3.7499716834477806`*^9, 3.74997312294525*^9},
- FontSize->12,ExpressionUUID->"ede21551-d835-4502-a6ab-70a6e1d384c4"]
+ CellChangeTimes->{3.74997410506182*^9, 
+  3.7499745002787113`*^9},ExpressionUUID->"38482f0c-511d-4ae6-956f-\
+8f16a791f0c2"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"Simplify", "[", "Mzxy", "]"}]], "Input",
- CellChangeTimes->{{3.7499731433732867`*^9, 
-  3.749973146812573*^9}},ExpressionUUID->"942c8e4b-4e3a-4ab3-ba16-\
+ RowBox[{"FullSimplify", "[", "Mzxy", "]"}]], "Input",
+ CellChangeTimes->{{3.7499731433732867`*^9, 3.749973146812573*^9}, {
+  3.749974114614168*^9, 
+  3.749974115049449*^9}},ExpressionUUID->"942c8e4b-4e3a-4ab3-ba16-\
 f8b0bd27f708"],
 
-Cell[BoxData[
- RowBox[{
-  FractionBox["1", 
-   RowBox[{"2", " ", 
-    SqrtBox["2"], " ", 
-    SqrtBox[
-     SuperscriptBox[
-      RowBox[{"(", 
-       RowBox[{
-        RowBox[{"2", " ", "x"}], "+", 
-        RowBox[{"r", " ", 
-         RowBox[{"Cos", "[", 
-          RowBox[{"\[Theta]", "-", "\[Psi]"}], "]"}]}]}], ")"}], "2"]], " ", 
-    SqrtBox[
-     RowBox[{
-      RowBox[{"-", "6"}], "+", 
-      RowBox[{"Cos", "[", 
-       RowBox[{"2", " ", 
-        RowBox[{"(", 
-         RowBox[{"\[Theta]", "-", "\[Psi]"}], ")"}]}], "]"}], "+", 
-      RowBox[{"Cos", "[", 
-       RowBox[{"2", " ", 
-        RowBox[{"(", 
-         RowBox[{"\[Theta]", "+", "\[Psi]"}], ")"}]}], "]"}]}]]}]], 
-  RowBox[{"r", " ", "\[Mu]\[Lambda]", " ", 
-   RowBox[{"(", 
-    RowBox[{
-     RowBox[{
-      RowBox[{"(", 
-       RowBox[{
-        RowBox[{"2", " ", "x"}], "+", 
-        RowBox[{"r", " ", 
-         RowBox[{"Cos", "[", 
-          RowBox[{"\[Theta]", "-", "\[Psi]"}], "]"}]}]}], ")"}], " ", 
-      RowBox[{"(", 
-       RowBox[{"2", "+", 
-        RowBox[{"Cos", "[", 
-         RowBox[{"2", " ", 
-          RowBox[{"(", 
-           RowBox[{"\[Theta]", "-", "\[Psi]"}], ")"}]}], "]"}], "-", 
-        RowBox[{"2", " ", 
-         SqrtBox[
-          RowBox[{
-           RowBox[{"-", "3"}], "+", 
-           RowBox[{
-            RowBox[{"Cos", "[", 
-             RowBox[{"2", " ", "\[Theta]"}], "]"}], " ", 
-            RowBox[{"Cos", "[", 
-             RowBox[{"2", " ", "\[Psi]"}], "]"}]}]}]], " ", 
-         RowBox[{"Cos", "[", 
-          RowBox[{"\[Theta]", "+", "\[Psi]"}], "]"}]}], "+", 
-        RowBox[{"Cos", "[", 
-         RowBox[{"2", " ", 
-          RowBox[{"(", 
-           RowBox[{"\[Theta]", "+", "\[Psi]"}], ")"}]}], "]"}]}], ")"}], " ", 
-      RowBox[{"Log", "[", 
-       RowBox[{
-        RowBox[{"4", " ", "y"}], "+", 
-        RowBox[{"2", " ", "r", " ", 
-         SqrtBox[
-          RowBox[{
-           RowBox[{"-", "3"}], "+", 
-           RowBox[{
-            RowBox[{"Cos", "[", 
-             RowBox[{"2", " ", "\[Theta]"}], "]"}], " ", 
-            RowBox[{"Cos", "[", 
-             RowBox[{"2", " ", "\[Psi]"}], "]"}]}]}]]}], "-", 
-        RowBox[{"2", " ", "r", " ", 
-         RowBox[{"Cos", "[", 
-          RowBox[{"\[Theta]", "+", "\[Psi]"}], "]"}]}]}], "]"}]}], "-", 
-     RowBox[{
-      RowBox[{"(", 
-       RowBox[{
-        RowBox[{"2", " ", "x"}], "+", 
-        RowBox[{"r", " ", 
-         RowBox[{"Cos", "[", 
-          RowBox[{"\[Theta]", "-", "\[Psi]"}], "]"}]}]}], ")"}], " ", 
-      RowBox[{"(", 
-       RowBox[{"2", "+", 
-        RowBox[{"Cos", "[", 
-         RowBox[{"2", " ", 
-          RowBox[{"(", 
-           RowBox[{"\[Theta]", "-", "\[Psi]"}], ")"}]}], "]"}], "+", 
-        RowBox[{"2", " ", 
-         SqrtBox[
-          RowBox[{
-           RowBox[{"-", "3"}], "+", 
-           RowBox[{
-            RowBox[{"Cos", "[", 
-             RowBox[{"2", " ", "\[Theta]"}], "]"}], " ", 
-            RowBox[{"Cos", "[", 
-             RowBox[{"2", " ", "\[Psi]"}], "]"}]}]}]], " ", 
-         RowBox[{"Cos", "[", 
-          RowBox[{"\[Theta]", "+", "\[Psi]"}], "]"}]}], "+", 
-        RowBox[{"Cos", "[", 
-         RowBox[{"2", " ", 
-          RowBox[{"(", 
-           RowBox[{"\[Theta]", "+", "\[Psi]"}], ")"}]}], "]"}]}], ")"}], " ", 
-      RowBox[{"Log", "[", 
-       RowBox[{
-        RowBox[{
-         RowBox[{"-", "4"}], " ", "y"}], "+", 
-        RowBox[{"2", " ", "r", " ", 
-         SqrtBox[
-          RowBox[{
-           RowBox[{"-", "3"}], "+", 
-           RowBox[{
-            RowBox[{"Cos", "[", 
-             RowBox[{"2", " ", "\[Theta]"}], "]"}], " ", 
-            RowBox[{"Cos", "[", 
-             RowBox[{"2", " ", "\[Psi]"}], "]"}]}]}]]}], "+", 
-        RowBox[{"2", " ", "r", " ", 
-         RowBox[{"Cos", "[", 
-          RowBox[{"\[Theta]", "+", "\[Psi]"}], "]"}]}]}], "]"}]}], "-", 
-     RowBox[{"4", " ", 
-      RowBox[{"Cos", "[", 
-       RowBox[{"\[Theta]", "-", "\[Psi]"}], "]"}], " ", 
-      SqrtBox[
-       SuperscriptBox[
-        RowBox[{"(", 
-         RowBox[{
-          RowBox[{"2", " ", "x"}], "+", 
-          RowBox[{"r", " ", 
-           RowBox[{"Cos", "[", 
-            RowBox[{"\[Theta]", "-", "\[Psi]"}], "]"}]}]}], ")"}], "2"]], " ", 
-      SqrtBox[
-       RowBox[{
-        RowBox[{"-", "3"}], "+", 
-        RowBox[{
-         RowBox[{"Cos", "[", 
-          RowBox[{"2", " ", "\[Theta]"}], "]"}], " ", 
-         RowBox[{"Cos", "[", 
-          RowBox[{"2", " ", "\[Psi]"}], "]"}]}]}]], " ", 
-      RowBox[{"Log", "[", 
-       RowBox[{
-        RowBox[{
-         RowBox[{"-", "r"}], " ", 
-         RowBox[{"Cos", "[", 
-          RowBox[{"\[Theta]", "+", "\[Psi]"}], "]"}]}], "+", 
-        RowBox[{"2", " ", 
-         RowBox[{"(", 
-          RowBox[{"y", "+", 
-           SqrtBox[
-            RowBox[{
-             SuperscriptBox["r", "2"], "+", 
-             SuperscriptBox["x", "2"], "+", 
-             SuperscriptBox["y", "2"], "+", 
-             RowBox[{"r", " ", "x", " ", 
-              RowBox[{"Cos", "[", 
-               RowBox[{"\[Theta]", "-", "\[Psi]"}], "]"}]}], "-", 
-             RowBox[{"r", " ", "y", " ", 
-              RowBox[{"Cos", "[", 
-               RowBox[{"\[Theta]", "+", "\[Psi]"}], "]"}]}]}]]}], ")"}]}]}], 
-       "]"}]}], "-", 
-     RowBox[{
-      RowBox[{"(", 
-       RowBox[{
-        RowBox[{"2", " ", "x"}], "+", 
-        RowBox[{"r", " ", 
-         RowBox[{"Cos", "[", 
-          RowBox[{"\[Theta]", "-", "\[Psi]"}], "]"}]}]}], ")"}], " ", 
-      RowBox[{"(", 
-       RowBox[{"2", "+", 
-        RowBox[{"Cos", "[", 
-         RowBox[{"2", " ", 
-          RowBox[{"(", 
-           RowBox[{"\[Theta]", "-", "\[Psi]"}], ")"}]}], "]"}], "-", 
-        RowBox[{"2", " ", 
-         SqrtBox[
-          RowBox[{
-           RowBox[{"-", "3"}], "+", 
-           RowBox[{
-            RowBox[{"Cos", "[", 
-             RowBox[{"2", " ", "\[Theta]"}], "]"}], " ", 
-            RowBox[{"Cos", "[", 
-             RowBox[{"2", " ", "\[Psi]"}], "]"}]}]}]], " ", 
-         RowBox[{"Cos", "[", 
-          RowBox[{"\[Theta]", "+", "\[Psi]"}], "]"}]}], "+", 
-        RowBox[{"Cos", "[", 
-         RowBox[{"2", " ", 
-          RowBox[{"(", 
-           RowBox[{"\[Theta]", "+", "\[Psi]"}], ")"}]}], "]"}]}], ")"}], " ", 
-      RowBox[{"Log", "[", 
-       RowBox[{"r", " ", 
-        RowBox[{"(", 
-         RowBox[{
-          RowBox[{"24", " ", "r", " ", "y"}], "+", 
-          RowBox[{
-           SuperscriptBox["r", "2"], " ", 
-           RowBox[{"Cos", "[", 
-            RowBox[{"\[Theta]", "-", 
-             RowBox[{"3", " ", "\[Psi]"}]}], "]"}]}], "-", 
-          RowBox[{"4", " ", "r", " ", "y", " ", 
-           RowBox[{"Cos", "[", 
-            RowBox[{"2", " ", 
-             RowBox[{"(", 
-              RowBox[{"\[Theta]", "-", "\[Psi]"}], ")"}]}], "]"}]}], "+", 
-          RowBox[{
-           SuperscriptBox["r", "2"], " ", 
-           RowBox[{"Cos", "[", 
-            RowBox[{
-             RowBox[{"3", " ", "\[Theta]"}], "-", "\[Psi]"}], "]"}]}], "+", 
-          RowBox[{"14", " ", 
-           SuperscriptBox["r", "2"], " ", 
-           SqrtBox[
-            RowBox[{
-             RowBox[{"-", "3"}], "+", 
-             RowBox[{
-              RowBox[{"Cos", "[", 
-               RowBox[{"2", " ", "\[Theta]"}], "]"}], " ", 
-              RowBox[{"Cos", "[", 
-               RowBox[{"2", " ", "\[Psi]"}], "]"}]}]}]]}], "+", 
-          RowBox[{"16", " ", 
-           SuperscriptBox["x", "2"], " ", 
-           SqrtBox[
-            RowBox[{
-             RowBox[{"-", "3"}], "+", 
-             RowBox[{
-              RowBox[{"Cos", "[", 
-               RowBox[{"2", " ", "\[Theta]"}], "]"}], " ", 
-              RowBox[{"Cos", "[", 
-               RowBox[{"2", " ", "\[Psi]"}], "]"}]}]}]]}], "+", 
-          RowBox[{"16", " ", "r", " ", "x", " ", 
-           RowBox[{"Cos", "[", 
-            RowBox[{"\[Theta]", "-", "\[Psi]"}], "]"}], " ", 
-           SqrtBox[
-            RowBox[{
-             RowBox[{"-", "3"}], "+", 
-             RowBox[{
-              RowBox[{"Cos", "[", 
-               RowBox[{"2", " ", "\[Theta]"}], "]"}], " ", 
-              RowBox[{"Cos", "[", 
-               RowBox[{"2", " ", "\[Psi]"}], "]"}]}]}]]}], "-", 
-          RowBox[{"11", " ", 
-           SuperscriptBox["r", "2"], " ", 
-           RowBox[{"Cos", "[", 
-            RowBox[{"\[Theta]", "+", "\[Psi]"}], "]"}]}], "+", 
-          RowBox[{"8", " ", 
-           SqrtBox[
-            SuperscriptBox[
-             RowBox[{"(", 
-              RowBox[{
-               RowBox[{"2", " ", "x"}], "+", 
-               RowBox[{"r", " ", 
-                RowBox[{"Cos", "[", 
-                 RowBox[{"\[Theta]", "-", "\[Psi]"}], "]"}]}]}], ")"}], "2"]],
-            " ", 
-           SqrtBox[
-            RowBox[{
-             RowBox[{"-", "3"}], "+", 
-             RowBox[{
-              RowBox[{"Cos", "[", 
-               RowBox[{"2", " ", "\[Theta]"}], "]"}], " ", 
-              RowBox[{"Cos", "[", 
-               RowBox[{"2", " ", "\[Psi]"}], "]"}]}]}]], " ", 
-           SqrtBox[
-            RowBox[{
-             SuperscriptBox["r", "2"], "+", 
-             SuperscriptBox["x", "2"], "+", 
-             SuperscriptBox["y", "2"], "+", 
-             RowBox[{"r", " ", "x", " ", 
-              RowBox[{"Cos", "[", 
-               RowBox[{"\[Theta]", "-", "\[Psi]"}], "]"}]}], "-", 
-             RowBox[{"r", " ", "y", " ", 
-              RowBox[{"Cos", "[", 
-               RowBox[{"\[Theta]", "+", "\[Psi]"}], "]"}]}]}]]}], "-", 
-          RowBox[{"4", " ", "r", " ", "y", " ", 
-           RowBox[{"Cos", "[", 
-            RowBox[{"2", " ", 
-             RowBox[{"(", 
-              RowBox[{"\[Theta]", "+", "\[Psi]"}], ")"}]}], "]"}]}], "-", 
-          RowBox[{"2", " ", 
-           SuperscriptBox["r", "2"], " ", 
-           SqrtBox[
-            RowBox[{
-             RowBox[{"-", "3"}], "+", 
-             RowBox[{
-              RowBox[{"Cos", "[", 
-               RowBox[{"2", " ", "\[Theta]"}], "]"}], " ", 
-              RowBox[{"Cos", "[", 
-               RowBox[{"2", " ", "\[Psi]"}], "]"}]}]}]], " ", 
-           RowBox[{"Cos", "[", 
-            RowBox[{"2", " ", 
-             RowBox[{"(", 
-              RowBox[{"\[Theta]", "+", "\[Psi]"}], ")"}]}], "]"}]}], "+", 
-          RowBox[{
-           SuperscriptBox["r", "2"], " ", 
-           RowBox[{"Cos", "[", 
-            RowBox[{"3", " ", 
-             RowBox[{"(", 
-              RowBox[{"\[Theta]", "+", "\[Psi]"}], ")"}]}], "]"}]}]}], 
-         ")"}]}], "]"}]}], "+", 
-     RowBox[{
-      RowBox[{"(", 
-       RowBox[{
-        RowBox[{"2", " ", "x"}], "+", 
-        RowBox[{"r", " ", 
-         RowBox[{"Cos", "[", 
-          RowBox[{"\[Theta]", "-", "\[Psi]"}], "]"}]}]}], ")"}], " ", 
-      RowBox[{"(", 
-       RowBox[{"2", "+", 
-        RowBox[{"Cos", "[", 
-         RowBox[{"2", " ", 
-          RowBox[{"(", 
-           RowBox[{"\[Theta]", "-", "\[Psi]"}], ")"}]}], "]"}], "+", 
-        RowBox[{"2", " ", 
-         SqrtBox[
-          RowBox[{
-           RowBox[{"-", "3"}], "+", 
-           RowBox[{
-            RowBox[{"Cos", "[", 
-             RowBox[{"2", " ", "\[Theta]"}], "]"}], " ", 
-            RowBox[{"Cos", "[", 
-             RowBox[{"2", " ", "\[Psi]"}], "]"}]}]}]], " ", 
-         RowBox[{"Cos", "[", 
-          RowBox[{"\[Theta]", "+", "\[Psi]"}], "]"}]}], "+", 
-        RowBox[{"Cos", "[", 
-         RowBox[{"2", " ", 
-          RowBox[{"(", 
-           RowBox[{"\[Theta]", "+", "\[Psi]"}], ")"}]}], "]"}]}], ")"}], " ", 
-      RowBox[{"Log", "[", 
-       RowBox[{
-        RowBox[{"-", "r"}], " ", 
-        RowBox[{"(", 
-         RowBox[{
-          RowBox[{"24", " ", "r", " ", "y"}], "+", 
-          RowBox[{
-           SuperscriptBox["r", "2"], " ", 
-           RowBox[{"Cos", "[", 
-            RowBox[{"\[Theta]", "-", 
-             RowBox[{"3", " ", "\[Psi]"}]}], "]"}]}], "-", 
-          RowBox[{"4", " ", "r", " ", "y", " ", 
-           RowBox[{"Cos", "[", 
-            RowBox[{"2", " ", 
-             RowBox[{"(", 
-              RowBox[{"\[Theta]", "-", "\[Psi]"}], ")"}]}], "]"}]}], "+", 
-          RowBox[{
-           SuperscriptBox["r", "2"], " ", 
-           RowBox[{"Cos", "[", 
-            RowBox[{
-             RowBox[{"3", " ", "\[Theta]"}], "-", "\[Psi]"}], "]"}]}], "-", 
-          RowBox[{"14", " ", 
-           SuperscriptBox["r", "2"], " ", 
-           SqrtBox[
-            RowBox[{
-             RowBox[{"-", "3"}], "+", 
-             RowBox[{
-              RowBox[{"Cos", "[", 
-               RowBox[{"2", " ", "\[Theta]"}], "]"}], " ", 
-              RowBox[{"Cos", "[", 
-               RowBox[{"2", " ", "\[Psi]"}], "]"}]}]}]]}], "-", 
-          RowBox[{"16", " ", 
-           SuperscriptBox["x", "2"], " ", 
-           SqrtBox[
-            RowBox[{
-             RowBox[{"-", "3"}], "+", 
-             RowBox[{
-              RowBox[{"Cos", "[", 
-               RowBox[{"2", " ", "\[Theta]"}], "]"}], " ", 
-              RowBox[{"Cos", "[", 
-               RowBox[{"2", " ", "\[Psi]"}], "]"}]}]}]]}], "-", 
-          RowBox[{"16", " ", "r", " ", "x", " ", 
-           RowBox[{"Cos", "[", 
-            RowBox[{"\[Theta]", "-", "\[Psi]"}], "]"}], " ", 
-           SqrtBox[
-            RowBox[{
-             RowBox[{"-", "3"}], "+", 
-             RowBox[{
-              RowBox[{"Cos", "[", 
-               RowBox[{"2", " ", "\[Theta]"}], "]"}], " ", 
-              RowBox[{"Cos", "[", 
-               RowBox[{"2", " ", "\[Psi]"}], "]"}]}]}]]}], "-", 
-          RowBox[{"11", " ", 
-           SuperscriptBox["r", "2"], " ", 
-           RowBox[{"Cos", "[", 
-            RowBox[{"\[Theta]", "+", "\[Psi]"}], "]"}]}], "-", 
-          RowBox[{"8", " ", 
-           SqrtBox[
-            SuperscriptBox[
-             RowBox[{"(", 
-              RowBox[{
-               RowBox[{"2", " ", "x"}], "+", 
-               RowBox[{"r", " ", 
-                RowBox[{"Cos", "[", 
-                 RowBox[{"\[Theta]", "-", "\[Psi]"}], "]"}]}]}], ")"}], "2"]],
-            " ", 
-           SqrtBox[
-            RowBox[{
-             RowBox[{"-", "3"}], "+", 
-             RowBox[{
-              RowBox[{"Cos", "[", 
-               RowBox[{"2", " ", "\[Theta]"}], "]"}], " ", 
-              RowBox[{"Cos", "[", 
-               RowBox[{"2", " ", "\[Psi]"}], "]"}]}]}]], " ", 
-           SqrtBox[
-            RowBox[{
-             SuperscriptBox["r", "2"], "+", 
-             SuperscriptBox["x", "2"], "+", 
-             SuperscriptBox["y", "2"], "+", 
-             RowBox[{"r", " ", "x", " ", 
-              RowBox[{"Cos", "[", 
-               RowBox[{"\[Theta]", "-", "\[Psi]"}], "]"}]}], "-", 
-             RowBox[{"r", " ", "y", " ", 
-              RowBox[{"Cos", "[", 
-               RowBox[{"\[Theta]", "+", "\[Psi]"}], "]"}]}]}]]}], "-", 
-          RowBox[{"4", " ", "r", " ", "y", " ", 
-           RowBox[{"Cos", "[", 
-            RowBox[{"2", " ", 
-             RowBox[{"(", 
-              RowBox[{"\[Theta]", "+", "\[Psi]"}], ")"}]}], "]"}]}], "+", 
-          RowBox[{"2", " ", 
-           SuperscriptBox["r", "2"], " ", 
-           SqrtBox[
-            RowBox[{
-             RowBox[{"-", "3"}], "+", 
-             RowBox[{
-              RowBox[{"Cos", "[", 
-               RowBox[{"2", " ", "\[Theta]"}], "]"}], " ", 
-              RowBox[{"Cos", "[", 
-               RowBox[{"2", " ", "\[Psi]"}], "]"}]}]}]], " ", 
-           RowBox[{"Cos", "[", 
-            RowBox[{"2", " ", 
-             RowBox[{"(", 
-              RowBox[{"\[Theta]", "+", "\[Psi]"}], ")"}]}], "]"}]}], "+", 
-          RowBox[{
-           SuperscriptBox["r", "2"], " ", 
-           RowBox[{"Cos", "[", 
-            RowBox[{"3", " ", 
-             RowBox[{"(", 
-              RowBox[{"\[Theta]", "+", "\[Psi]"}], ")"}]}], "]"}]}]}], 
-         ")"}]}], "]"}]}]}], ")"}]}]}]], "Output",
- CellChangeTimes->{
-  3.749973148276305*^9},ExpressionUUID->"1218359b-5a72-4d0a-90d5-\
-5fa5c24f970f"]
-}, Open  ]]
+Cell[BoxData["$Aborted"], "Output",
+ CellChangeTimes->{3.749974424837118*^9, 
+  3.749974747404721*^9},ExpressionUUID->"957107ae-8743-443e-9572-\
+8544476b6416"]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.749974107684698*^9, 
+  3.749974117378294*^9}},ExpressionUUID->"bf146e8c-b86d-4b9c-a73f-\
+2eb20a3f6e59"]
 },
 WindowSize->{1920, 997},
 WindowMargins->{{-8, Automatic}, {Automatic, -8}},
@@ -1065,23 +641,22 @@ Notebook[{
 Cell[558, 20, 154, 3, 28, "Input",ExpressionUUID->"d74bc757-2e59-4499-83d9-6e8535f90284"],
 Cell[CellGroupData[{
 Cell[737, 27, 941, 26, 68, "Input",ExpressionUUID->"10d9b930-6943-4ecc-a9bd-dd7dd7d76186"],
-Cell[1681, 55, 932, 26, 61, "Output",ExpressionUUID->"9fbe06b2-0612-44c6-8eaa-a1354f0758d2"]
+Cell[1681, 55, 935, 27, 61, "Output",ExpressionUUID->"8ba47fc4-f39c-4167-a669-2d1b66821583"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2650, 86, 298, 7, 28, "Input",ExpressionUUID->"3fa980b5-7599-4ecf-a7d2-451fe2e9e91c"],
-Cell[2951, 95, 1995, 58, 73, "Output",ExpressionUUID->"1994ab98-6008-41aa-8557-06b689e2d3cd"]
+Cell[2653, 87, 298, 7, 28, "Input",ExpressionUUID->"3fa980b5-7599-4ecf-a7d2-451fe2e9e91c"],
+Cell[2954, 96, 1941, 57, 73, "Output",ExpressionUUID->"6740534e-c096-4892-a83b-9153df39ebd1"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4983, 158, 403, 8, 28, "Input",ExpressionUUID->"8b0eaeb0-90c2-4825-8181-300f3834b657"],
-Cell[5389, 168, 15786, 433, 301, "Output",ExpressionUUID->"ede21551-d835-4502-a6ab-70a6e1d384c4"]
+Cell[4932, 158, 403, 8, 28, "Input",ExpressionUUID->"8b0eaeb0-90c2-4825-8181-300f3834b657"],
+Cell[5338, 168, 15701, 433, 337, "Output",ExpressionUUID->"38482f0c-511d-4ae6-956f-8f16a791f0c2"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[21212, 606, 192, 4, 28, "Input",ExpressionUUID->"942c8e4b-4e3a-4ab3-ba16-f8b0bd27f708"],
-Cell[21407, 612, 15678, 433, 337, "Output",ExpressionUUID->"1218359b-5a72-4d0a-90d5-5fa5c24f970f"]
-}, Open  ]]
+Cell[21076, 606, 245, 5, 28, "Input",ExpressionUUID->"942c8e4b-4e3a-4ab3-ba16-f8b0bd27f708"],
+Cell[21324, 613, 159, 3, 32, "Output",ExpressionUUID->"957107ae-8743-443e-9572-8544476b6416"]
+}, Open  ]],
+Cell[21498, 619, 152, 3, 28, "Input",ExpressionUUID->"bf146e8c-b86d-4b9c-a73f-2eb20a3f6e59"]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
